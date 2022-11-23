@@ -130,7 +130,7 @@ Input the number of vertices in the graph for which you want to find shortest pa
 Input all the values in adjacency matrix according to the weightage of all edges in your graph
 
 **Step 4:**
-Input the source and destination of the grrph for shortest distance.
+Input the source and destination of the graph for shortest distance.
 
 **Step 5:**
 Then the code will do its work and give you the shortest distance.
