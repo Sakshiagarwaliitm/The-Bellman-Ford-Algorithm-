@@ -2,8 +2,15 @@
 The Bellman–Ford algorithm is an algorithm that computes shortest paths from a single source vertex to all of the other vertices in a weighted graph.
 
 ## About
-STEPS for finding the shortest distance to all vertices from the source using the Bellman-Ford algorithm using an example:
+It is the python code for finding shortest distance from a single souurce to all other vertex of the graph. Input being used are:
 
+a) Number of vertex and
+b) Adjacency matrix.
+
+
+Below are the steps in simple language with an example on how this Bellman-Ford algorithm works and find the shortest distances.
+
+**Example**
 Let’s assume that A is a source and E is a destination, So we are trying to find the shortest distance between the source (A) to destination (E)
  
 ### Step 1)
