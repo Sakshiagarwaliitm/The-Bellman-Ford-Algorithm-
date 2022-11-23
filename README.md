@@ -6,17 +6,12 @@ STEPS for finding the shortest distance to all vertices from the source using th
 
 Let’s assume that A is a source and E is a destination, So we are trying to find the shortest distance between the source (A) to destination (E)
  
-1)	Let the given source vertex be 0. Initialize all distances as infinite, except the distance to the source itself. The total number of vertices in the graph is 5, so all edges must be processed 4 times.
+### Step 1)
+Let the given source vertex be 0. Initialize all distances as infinite, except the distance to the source itself. The total number of vertices in the graph is 5, so all edges must be processed 4 times.
 
 
 
-
-A	 B	 C	 D	 E
-0	Inf	Inf	Inf	inf
-
-
-
-
+![image](https://user-images.githubusercontent.com/118912055/203609970-712bc34b-bb43-413b-a437-fceb2eec4bb1.png)
 
 
 
@@ -30,18 +25,21 @@ A	 B	 C	 D	 E
 
 
 
-Cost = cost(source) + Weighted edge
+**Update Rule:**
 
-If (cost(source) + Weighted edge < cost(destination)):
-	
-Hence, we will assign this Cost to vertex B.
-else:
+$$ Cost = cost(source) + Weighted edge $$
+
+if, $$(cost(source) + Weighted edge < cost(destination)) $$
+
+then, we will assign this Cost to vertex B.
+
+Else:
 	The cost of vertex B remains the same cost.
 	
 
 
-
-2)	Let all edges be processed in the following order: (B, E), (D, B), (B, D), (A, B), (A, C), (D, C), (B, C), (E, D). We get the following distances when all edges are processed the first time. The first row shows the initial distances. The second row shows distances when edges (B, E), (D, B), (B, D), and (A, B) are processed. The third row shows distances when (A, C) is processed. The fourth row shows when (D, C), (B, C), and (E, D) are processed. 
+### Step 2)
+Let all edges be processed in the following order: (B, E), (D, B), (B, D), (A, B), (A, C), (D, C), (B, C), (E, D). We get the following distances when all edges are processed the first time. The first row shows the initial distances. The second row shows distances when edges (B, E), (D, B), (B, D), and (A, B) are processed. The third row shows distances when (A, C) is processed. The fourth row shows when (D, C), (B, C), and (E, D) are processed. 
  
 
 
@@ -52,30 +50,16 @@ else:
 
 
 
-
-
-A	 B	 C	 D	 E
-0	Inf	Inf	Inf	inf
-0	-1	Inf	Inf	Inf
-0	-1	 4	Inf	Inf
-0	-1	 2	Inf	inf
+![image](https://user-images.githubusercontent.com/118912055/203610495-17b6143b-1dca-4e8f-a9a0-29b4de1e0c4a.png)
 
 
 
-
-3)	The first iteration guarantees to give all shortest paths which are at most 1 edge long. We get the following distances when all edges are processed a second time (The last row shows the final values). 
+### Step 3)
+The first iteration guarantees to give all shortest paths which are at most 1 edge long. We get the following distances when all edges are processed a second time (The last row shows the final values). 
 
 
  	 
-A	 B	 C	 D	 E
-0	Inf	Inf	Inf	inf
-0	-1	Inf	Inf	Inf
-0	-1	 4	Inf	Inf
-0	-1	 2	Inf	inf
-0	-1	 2	Inf	 1
-0	-1	 2	 1	 1
-0	-1	 2	-2	 1
-
+![image](https://user-images.githubusercontent.com/118912055/203611381-86e8179f-2c02-4d0e-8104-47f5db48bc3f.png)
 
 
 
