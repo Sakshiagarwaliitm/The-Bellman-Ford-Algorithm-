@@ -5,6 +5,7 @@ The Bellman–Ford algorithm is an algorithm that computes shortest paths from a
 It is the python code for finding shortest distance from a single souurce to all other vertex of the graph. Input being used are:
 
 a) Number of vertex and
+
 b) Adjacency matrix.
 
 
