@@ -107,6 +107,16 @@ This function used to create the algorithm of the Bellman-Ford which are apply o
 
 2) ```belaman_evaluation()```
 
+This function used to create a table which is shown the cost of source to destination and path of source to destination.
+
+3) ```drawMyGraph()```
+
+This function used to create a graph .
+
+4) ```labelMaker()```
+
+This function used for the label on the vertices.
+
 
 
 ## User manual:
