@@ -92,6 +92,13 @@ The first iteration guarantees to give all shortest paths which are at most 1 ed
 The code has been written in Python on Jupyter Notebook. 
 
 ## Background
+
+There are some of the library used in this code which you need to install first, which are:
+1)  ```Numpy ```
+2)   ``` Matplotlib ```
+3)    ``` Networkx ```
+
+
 Before moving forward with the code, we need to look some important function which are used in the program.
 1) ```bellmanford()```
 
@@ -118,11 +125,6 @@ Input the source and destination of the grrph for shortest distance.
 **Step 5:**
 Then the code will do its work and give you the shortest distance.
 
-
-
-## Explanation of Code
-Initially, we are trying to convert the adjacency matrix into dictionary then apply the bellman-ford algorithm in that dictionary.
-The final result is 
 
 ## Usage of this model
 A version of Bellman-Ford is used in the distance-vector routing protocol. This protocol decides how to route packets of data on a network. The distance equation (to decide weights in the network) is the number of routers a certain path must go through to reach its destination.
