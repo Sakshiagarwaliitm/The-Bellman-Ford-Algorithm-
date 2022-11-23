@@ -11,7 +11,7 @@ b) Adjacency matrix.
 
 Below are the steps in simple language with an example on how this Bellman-Ford algorithm works and find the shortest distances.
 
-**Example**
+**Example: **
 Let’s assume that A is a source and E is a destination, So we are trying to find the shortest distance between the source (A) to destination (E)
  
 ### Step 1)
@@ -93,14 +93,31 @@ The code has been written in Python on Jupyter Notebook.
 
 ## Background
 Before moving forward with the code, we need to look some important function which are used in the program.
-1) bellmanford(graph,src,dest):
+1) ```bellmanford(graph,src,dest)```
+
+
 This function used to create the algorithm of the Bellman-Ford which are apply on the graph. Firstly, suppose the source then find the shortest path to each node.
 
-2) belaman_evaluation(graph):
+2) ```belaman_evaluation(graph)```
 
 
 
 ## User manual:
+**Step 1:**
+First import all the libraries used in the code (Mentioned above)
+
+**Step 2**
+Input the number of vertices in the graph for which you want to find shortest path.
+
+**Step 3**
+Input all the values in adjacency matrix according to the weightage of all edges in your graph
+
+**Step 4**
+Input the source and destination of the grrph for shortest distance.
+
+**Step 5**
+Then the code will do its work and give you the shortest distance.
+
 
 
 ## Explanation of Code
