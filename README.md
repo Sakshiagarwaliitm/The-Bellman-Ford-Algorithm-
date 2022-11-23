@@ -7,3 +7,12 @@ The Bellman–Ford algorithm is an algorithm that computes shortest paths from a
 The code has been written in Python on Jupyter Notebook. 
 
 ## Background
+
+## User manual
+
+## Explanation of Code
+
+## Usage of this model
+
+
+
