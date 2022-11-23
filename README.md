@@ -93,12 +93,12 @@ The code has been written in Python on Jupyter Notebook.
 
 ## Background
 Before moving forward with the code, we need to look some important function which are used in the program.
-1) ```bellmanford(graph,src,dest)```
+1) ```bellmanford()```
 
 
 This function used to create the algorithm of the Bellman-Ford which are apply on the graph. Firstly, suppose the source then find the shortest path to each node.
 
-2) ```belaman_evaluation(graph)```
+2) ```belaman_evaluation()```
 
 
 
