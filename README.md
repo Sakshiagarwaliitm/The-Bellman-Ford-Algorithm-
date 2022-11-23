@@ -106,16 +106,16 @@ This function used to create the algorithm of the Bellman-Ford which are apply o
 **Step 1:**
 First import all the libraries used in the code (Mentioned above)
 
-**Step 2**
+**Step 2:**
 Input the number of vertices in the graph for which you want to find shortest path.
 
-**Step 3**
+**Step 3:**
 Input all the values in adjacency matrix according to the weightage of all edges in your graph
 
-**Step 4**
+**Step 4:**
 Input the source and destination of the grrph for shortest distance.
 
-**Step 5**
+**Step 5:**
 Then the code will do its work and give you the shortest distance.
 
 
